@@ -6,12 +6,14 @@ import Error from "./pages/Error"
 
 const App = () => {
   return <BrowserRouter>
+    <header>Hlavička stránky</header>
     <Routes>
-      <Route path="/" element={ <Home /> } />
-      <Route path="/movies" element={ <Movies /> } />
-      <Route path="/serials" element={ <Serials /> } />
-      <Route path="*" element={ <Error /> } />
+      <Route path="/" element={<Home />} />
+      <Route path="/movies" element={<Movies />} />
+      <Route path="/serials" element={<Serials />} />
+      <Route path="*" element={<Error />} />
     </Routes>
+    <footer>Patička</footer>
   </BrowserRouter>
 }
 
