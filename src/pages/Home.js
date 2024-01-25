@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 
 const Home = () => {
     return <section>
         <ul>
-            <li>Domovská stránka</li>
-            <li><Link to="/movies">Filmy</Link></li>
-            <li><Link to="/serials">Seriály</Link></li>
+            <li>Domovská stránkaaaa</li>
+            <Outlet />
         </ul>
     </section>
 }
