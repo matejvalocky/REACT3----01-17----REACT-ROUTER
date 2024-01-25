@@ -2,11 +2,7 @@ import { Link } from "react-router-dom"
 
 const Movies = () => {
     return <section>
-        <ul>
-            <li><Link to="/">Domovská stránka</Link></li>
-            <li>Filmy</li>
-            <li><Link to="/serials">Seriály</Link></li>
-        </ul>
+        <h1>Filmy</h1>
     </section>
 }
 
