@@ -1,12 +1,13 @@
 import { Link, Outlet } from "react-router-dom"
+import Navbar from "../components/Navbar"
 
 const Home = () => {
-    return <section>
-        <ul>
-            <li>Domovská stránkaaaa</li>
+    return <>
+        <Navbar />
+        <section>
             <Outlet />
-        </ul>
-    </section>
+        </section>
+    </>
 }
 
 export default Home
