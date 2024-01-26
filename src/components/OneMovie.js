@@ -1,9 +1,14 @@
-
+import { useParams } from "react-router-dom"
 
 const OneMovie = () => {
-  return <section>
-    <h2>Jeden film</h2>
-  </section>
+    console.log(useParams())
+
+    const { movieId } = useParams()
+
+
+    return <section>
+        <h2>{movieId}</h2>
+    </section>
 }
 
 export default OneMovie
