@@ -1,3 +1,7 @@
-.active{
-    color: red;
+.activeLink{
+    color: orange;
+}
+
+.nonActiveLink{
+    color: grey;
 }
