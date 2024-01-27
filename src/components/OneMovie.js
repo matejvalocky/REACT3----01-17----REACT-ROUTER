@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom"
 import movies from "../data"
+import "./OneMovie.css"
 
 const OneMovie = () => {
     console.log(useParams())
@@ -14,7 +15,7 @@ const OneMovie = () => {
     const { image, title, description, tags } = oneSpecificMovie
 
 
-    return <section>
+    return <section className="one-movie-more">
         <h2>{title}</h2>
         <img src={image} alt="" />
         <p>{description}</p>
